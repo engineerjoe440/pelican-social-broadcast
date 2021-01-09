@@ -1,0 +1,30 @@
+# Pelican-Social-Broadcast Plugin
+
+[project]
+name = "pelican-social-broadcast"
+version = "0.0.0"
+description = "Automate broadcasting updates to social media pages for new Pelican blog posts."
+authors = [
+    "Joe Stanley <engineerjoe440@yahoo.com>"
+]
+license = "MIT"
+readme = "README.md"
+python = "^3.6"
+homepage = "https://github.com/engineerjoe440/pelican-social-broadcast"
+repository = "https://github.com/engineerjoe440/pelican-social-broadcast"
+documentation = "https://github.com/engineerjoe440/pelican-social-broadcast"
+
+keywords = ["pelican", "blog", "social", "plugin"]
+
+classifiers = [
+    "Topic :: Pelican",
+    "Topic :: Blog"
+]
+
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools", "wheel"]  # PEP 508 specifications.
+
+# Requirements
+[dependencies]
+tinydb = "^4.3.0"
